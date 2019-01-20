@@ -1,0 +1,11 @@
+# Development
+flake8
+isort
+pydocstring
+pylint
+yapf
+
+# Scripts
+click
+dynaconf
+twitter
