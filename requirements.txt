@@ -4,8 +4,9 @@ isort
 pydocstring
 pylint
 yapf
+ipython
 
 # Scripts
 click
 dynaconf
-twitter
+python-twitter

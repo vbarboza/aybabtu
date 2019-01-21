@@ -27,6 +27,17 @@ pip install -r requiremets.txt
 
 ## Usage
 
+### Fetch
+
+Download Twitter account tweets to a local CSV file.
+
+
 ```
-python3 ./main.py help
+python3 src/fetch.py help
 ```
+
+## How to contribute
+
+* Improving the code.
+* Improving the models.
+* Sending fetched tweets from known bot accounts.
