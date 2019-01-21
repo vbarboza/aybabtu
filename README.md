@@ -1,25 +1,31 @@
-# Twitter Bot Crawler
+# Bozo Twitter Bot Crawler
 
 ![Bozo](https://upload.wikimedia.org/wikipedia/commons/d/da/Bob_bell_bozo_roy_brown_cooky_1976.JPG)
 
-## TL;DR
-
-"All your ~~bases~~ bots are belong to us."
-
 ## Roadmap
 
-1. Fetch tweets from a given Twitter account.
-1. Find copies of tweets (excluding retweets) from a given Twitter account.
-1. Build a _bot-like_ tweets dataset with metadata.
-1. Track down the tweet source by timestamps.
-1. Track down automatic answers by timestamps.
-1. Train a model to classify _bot-like_ and natural tweets.
-1. Make an index of _bot-like_ Twitter accounts.
-1. Train a model to correlate tweets with the thread topic.
-1. Warn Twitter users in a thread regarding robots.
-1. Flag _bot-like_ Twitter accounts.
+1. List bot accounts.
+1. Build a tweet dataset (with metadata) from multiple bot accounts.
+1. Explore tweets from a bot account.
+1. Explore retweets from a bot account.
+1. Explore hashtags from a bot account.
+1. Explore replies from a bot account.
+1. Explore mentions in tweets a bot account.
+1. Explore location of multiple bot accounts.
+1. Explore accounts multiple bot accounts follow.
+1. Explore duplicated tweets (excluding retweets) in multiple bot accounts.
+1. Explore timestamps of tweets from multiple bot accounts.
+1. Explore timestamps of replies from multiple bot accounts.
+1. Explore timestamps of replies from multiple bot accounts.
+1. Explore Twitter threads context and correlation with bot replies.
+1. Train a model to classify between bots and people.
+1. Make an index of bots.
+1. Flag Twitter bot accounts.
+1. Warn Twitter users in a thread regarding bots.
 
 ## Requirements
+
+A simple `requirements.txt` file is available for ease of configuration. Just run:
 
 ```
 pip install -r requiremets.txt
@@ -29,15 +35,29 @@ pip install -r requiremets.txt
 
 ### Fetch
 
-Download Twitter account tweets to a local CSV file.
+Fetch tweets from a given account and write it to a local CSV file.
 
 
 ```
-python3 src/fetch.py help
+python3 src/fetch.py [account]
 ```
 
 ## How to contribute
 
-* Improving the code.
-* Improving the models.
-* Sending fetched tweets from known bot accounts.
+You don't need to be a developer to contribute to this project. There are many ways one can contirbute:
+
+* Sharing this project in social media.
+* Listing known bot accounts (use the Github issues or send it directly to me @vinicius0x42).
+* Fetching tweets from bot accounts and opening PRs with new datasets.
+* Opening PRs with your analysis (please, use Jupyter notebooks).
+* Improving the crawler scripts.
+* Improving the documentation.
+* Translating the documenation.
+
+Please, be polite.
+
+## Disclaimer
+
+This is a personal project.
+
+**"All your ~~bases~~ bots are belong to us."**
