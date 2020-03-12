@@ -1,6 +1,6 @@
-# Bozo Twitter Bot Crawler
+# All Your Bots Are Belong To Us
 
-![Bozo](https://upload.wikimedia.org/wikipedia/commons/d/da/Bob_bell_bozo_roy_brown_cooky_1976.JPG)
+![All Your Base Are Belong To Us](https://upload.wikimedia.org/wikipedia/en/0/03/Aybabtu.png)
 
 ## Roadmap
 
